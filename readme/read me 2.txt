@@ -1,0 +1,9 @@
+installtion
+1.dwonload jdk v-11
+2.dont miss java-home in variables
+3.download keycloack server v-17 from https://www.keycloak.org/archive/downloads-17.0.0.html  
+4.extract
+5.to start server write in cmd   bin\kc.bat start-dev that will work on localhost 8080
+6.add admin in register first tab with username admin password admin
+7.import in keycloak realm-data that contians config of keycloak
+8.check that file contains openidapi-end-point of kecyloak

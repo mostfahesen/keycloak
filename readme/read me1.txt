@@ -1,0 +1,28 @@
+Introduction to Keycloak
+Keycloak is an open-source identity and access management tool with a focus on modern applications such as single-page applications, mobile applications, and REST APIs.
+
+1.Admin Console
+Web-based GUI where you can “click out” all configurations required by your instance to work as you desire. 
+
+2.Users
+Entities that are able to log into the protected system. They have a set of editable attributes and can be a part of a group and/or have specific roles assigned to them.
+
+3.Role
+A type or category of user that exists within an organization. Applications often base on roles to restrict access to resources.  
+
+3.Groups
+Entities that are used to manage a set of users. Similarly to users, groups have editable attributes and you can also assign roles to a group. Users that become members of a group inherit their attributes and roles.
+
+4.Realm
+A realm manages a set of users, credentials, roles, and groups. A user belongs to and logs into a realm. Realms are isolated from one another and can only manage and authenticate the users that they control.
+
+5.Client
+Entities that can request Keycloak to authenticate a user. Most often, clients are applications and services which want to use Keycloak to secure themselves. Clients may also be entities wanting to request identity information or an access token so that they can securely invoke other services secured by Keycloak.
+
+6.Identity Token
+A token providing identity information about the user. Part of the OpenID Connect specification.
+
+7.Access Token
+A token that can be provided as part of an HTTP request
+
+resource: https://medium.com/codex/introduction-to-keycloak-227c3902754a
